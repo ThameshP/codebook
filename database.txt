@@ -3,3 +3,8 @@ PQxtcYcrBAgt2CTD
 c6e778db3dbd67296fc876aa7a44f01c9a92c63c  dev
 
 38c258732bfa3344bf954ca1e155d6bee9f0319f   prod
+
+
+cd codebook
+npx prisma db push
+npm run dev
