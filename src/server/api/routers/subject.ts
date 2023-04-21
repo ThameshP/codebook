@@ -12,7 +12,7 @@ export const subjectRouter = createTRPCRouter({
   }),
 
   create: protectedProcedure
-    .input(z.object({ text: z.string() }))
+    .input(z.object({ text: z.string(), title: z.string() }))
     .mutation(({ ctx, input }) => {
       return ctx.prisma.subject.create({
         data: {
