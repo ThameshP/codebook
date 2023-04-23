@@ -8,7 +8,7 @@ export const Navbar = () => {
     return(
     <div className="navbar bg-base-200">
       <div className="flex-1 pl-5 text-2xl font-bold">
-        {sessionData?.user?.name ? `Coding for ${sessionData.user.name}` : ""}
+        {sessionData?.user?.name ? `Codebook - for ${sessionData.user.name}` : "Codebook - Save your code by logging in!" }
       </div>
       <div>
         <div className="dropdown-end dropdown">
